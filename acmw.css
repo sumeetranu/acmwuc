@@ -102,6 +102,11 @@ div#text { font-size:large;}
  	border: 8px solid #f6f7f9 !important;
  }
 
+/*.fb-comments, .fb-comments iframe[style], .fb-comments span {
+   width: 100% !important;
+}*/
+
+
 .navbar-brand
 {
     position: absolute;
@@ -114,6 +119,9 @@ div#text { font-size:large;}
     z-index:3;
 }
 
+.text-block {
+  padding-bottom:10px;
+}
 
 
  
