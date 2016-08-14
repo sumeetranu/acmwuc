@@ -97,7 +97,7 @@ div#text { font-size:large;}
  }
 
  .twitter-timeline {
- 	height:800px !important;
+ 	height:300px !important;
  	margin-top: 300px !important;
  	overflow: scroll !important;
  	border: 8px solid #f6f7f9 !important;
