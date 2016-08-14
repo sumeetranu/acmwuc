@@ -16,6 +16,12 @@ body {
 
 div#text { font-size:large;}
 
+.fb-page, 
+.fb-page span, 
+.fb-page span iframe[style] { 
+    width: 100% !important; 
+}
+
 /*div#navbar { 
  height: 30px; 
  width: 100%; 
