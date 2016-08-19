@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<TITLE>Home Page for ACM-W,
-	University of Cincinnati </TITLE>
-<META name="description" content="">
-<META name="keywords" content="ACM-W, University of Cincinnati, ACM">
-<link type="text/css" rel="stylesheet" href="acmw.css" media="screen" />
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <meta charset="utf-8" />
+  <TITLE>Home Page for ACM-W,University of Cincinnati </TITLE>
+  <META name="description" content="">
+  <META name="keywords" content="ACM-W, University of Cincinnati, ACM">
+  <link type="text/css" rel="stylesheet" href="acmw.css"/>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/4e542964ef.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Fontawesome -->
+  <script src="https://use.fontawesome.com/4e542964ef.js"></script>
+
+  <!-- Facebook -->
+  <div id="fb-root"></div>
+  <style type="text/css">
+      .fb_iframe_widget span{        
+          overflow: initial !important;
+      }
+      .fb_iframe_widget iframe{        
+          width: 340px !important;
+          height: 500px !important;    
+      }
+  </style>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 </head>
 
 <header style="width:100%">
-   <img src="images/websitebanner.png" style="max-height:5%; height:auto; max-width:100%; width:auto" align="center" width="100%"></img>
-
+<div style="align-content:center; text-align:center">
+   <img align="middle" src="images/websitebanner.png" style="max-height:5%; height:auto; max-width:100%; width:auto; padding-left:auto; padding-right:auto" align="center" width="100%"></img>
+</div>
       <!-- Navigation bar -->
 
     <nav class="navbar navbar-default blue-navbar" role="navigation">
@@ -50,6 +73,7 @@
     </nav>
 </header>
 
+
 <body background="paper_fibers.png">
 
   <div background="paper_fibers.png" class="container">
@@ -57,7 +81,7 @@
     
 
     <!-- Page Content -->
-    <font size="6"> <center>2016-17 Executive Board </center></font>
+    <font size="6" color="#1C4B83"> <center>2016-17 Executive Board </center></font>
 	 <table align="center" cellspacing="10">
 
 		<p>
@@ -113,14 +137,6 @@
 
 <footer>
   <div class="footer-text">
-    <!-- <div class="col-sm-3"> -->
-
-    <!-- </div> -->
-
-    <!-- <div class="col-sm-9"> -->
-
-    
-
 
       <p style="font-size:3em"><b>Join Us!</b></h1>
           
@@ -162,3 +178,4 @@
       </table>
     </div>
   </div>   
+</footer>

@@ -1,27 +1,50 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<TITLE>Home Page for ACM-W,
-	University of Cincinnati </TITLE>
-<META name="description" content="">
-<META name="keywords" content="ACM-W, University of Cincinnati, ACM">
-<link type="text/css" rel="stylesheet" href="acmw.css" media="screen" />
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <meta charset="utf-8" />
+  <TITLE>Home Page for ACM-W,University of Cincinnati </TITLE>
+  <META name="description" content="">
+  <META name="keywords" content="ACM-W, University of Cincinnati, ACM">
+  <link type="text/css" rel="stylesheet" href="acmw.css"/>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/4e542964ef.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Fontawesome -->
+  <script src="https://use.fontawesome.com/4e542964ef.js"></script>
+
+  <!-- Facebook -->
+  <div id="fb-root"></div>
+  <style type="text/css">
+      .fb_iframe_widget span{        
+          overflow: initial !important;
+      }
+      .fb_iframe_widget iframe{        
+          width: 340px !important;
+          height: 500px !important;    
+      }
+  </style>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 </head>
 
 <header style="width:100%">
-   <img src="images/websitebanner.png" style="max-height:5%; height:auto; max-width:100%; width:auto" align="center" width="100%"></img>
-
+<div style="align-content:center; text-align:center">
+   <img align="middle" src="images/websitebanner.png" style="max-height:5%; height:auto; max-width:100%; width:auto; padding-left:auto; padding-right:auto" align="center" width="100%"></img>
+</div>
       <!-- Navigation bar -->
 
     <nav class="navbar navbar-default blue-navbar" role="navigation">
@@ -55,57 +78,68 @@
   <div background="paper_fibers.png" class="container">
 
     <!-- Page Content -->
-    <font size="6"> <center>Main Activities</center></font>
+    <font size="6"  color="#1C4B83"> <center>Main Activities</center></font>
 
-          <!-- Digigirlz -->
-          <div style="padding-top:20px">
-            <img src = "images/digigirlz.png" height = 250px align="right"/>
-            <b><font color="#1C4B83" size="5">DigiGirlz</font></b>
-            <div class="text-block"><p><b>Purpose:</b> Microsoft Corporation partnered with UC ACM-W to host DigiGirlz day. During the event, high school students interacted with <b>Microsoft employees and managers</b> and University of Cincinnati staff and students to <b> <font color="#1C4B83">gain exposure to careers in business and technology and to get an inside look at what it’s like to work in the computing industry. </font></b></p></div>
-            <div class="text-block"><b>Date: </b>November 13th, 2015 (8AM - 2PM)</div>
-            <div class="text-block"><b>Location: </b>Microsoft Center - Blue Ash (transportation for volunteers provided)  </div>
-            <div class="text-block"><b>Participants:  Approximately 100 people;</b> <font color="#1C4B83">50-60 high school students from inner-city schools, 20 college students (volunteers), 20 faculty members /Microsoft reps. /UC Staff</font></div>
-            <div class="text-block"><b>How to get involved: </b> Sign up to volunteer! Note: The volunteering counts towards <b>Cincinnatus hours</b>.</div>
-          </div>
+    <div style="padding-top:20px; height:auto">
+      <img src="images/bearcatcoders.png" height = 200px align="right" style="padding-right:10px; padding-left:10px"/>
+       <b><font color="#1C4B83" size="5"> Google Bearcat Coders</font></b>
+       
+       <br><b>Purpose:</b> Google is helping ACM-W give back to the community by funding the Bearcat Coders program to serve as project mentors for Hughes STEM Students.<b> <font color="#1C4B83">Volunteers can sign up to join a Bearcat Coders team to go over to Hughes High School and mentor students. </font></b>
+       <br><br> <b>Date: </b>TBD - Look out for "Orientation" meeting announcements in a few weeks!
+       <br><br> <b>Location: </b>Hughes High School (across the street from UC, on Clifton Ave.)      
+       <br><br> <b>How to get involved: </b> Look out for Orientation meeting announcements in a few weeks! Note: The volunteering counts towards <b>Cincinnatus hours</b>. Anyone can volunteer because <b>No programming knowledge is required!</b>
 
-           <div style="padding-top:20px">
-            <img src="images/bearcatcoders.png" height = 300px align="left"/>
-             <b><font color="#1C4B83" size="5"> Google Bearcat Coders</font></b>
-             
-             <b>Purpose:</b> Google is helping ACM-W give back to the community by funding the Bearcat Coders program to serve as project mentors for Hughes STEM Students.<b> <font color="#1C4B83">Volunteers can sign up to join a Bearcat Coders team to go over to Hughes High School and mentor students. </font></b>
+    </div>
 
-             <br><br> <b>Date: </b>TBD - Look out for "Orientation" meeting announcements in a few weeks!
+    <div style="padding-top:20px; height:auto">
+      <img src="images/networking_week.png" height= 150px align="left" style="padding-right:10px; padding-left:10px"/>
+       <b><font color="#1C4B83" size="5"> Networking Events</font></b>
+       
+       <br><b>Purpose:</b> ACM-W is hosting Fortune 500 companies to network with students, the two weeks prior to the fall career fair. Visit our calendar to get more details on the dates, locations and other details.<b> <font color="#1C4B83">This is a great chance to get to know companies and employees prior to the career fair!</font></b>
+       <br><br> <b>How to get involved: </b> Come to the the events and bring your friends! <b>We will provide a professional development session prior to the career fair to help you revise your resume and learn how to navigate the event.</b>
+
+    </div>
+
+      
            
-
-     <br><br> <b>Location: </b>Hughes High School (across the street from UC, on Clifton Ave.)      
-     <br><br> <b>How to get involved: </b> Look out for Orientation meeting announcements in a few weeks! Note: The volunteering counts towards <b>Cincinnatus hours</b>. Anyone can volunteer because <b>No programming knowledge is required!</b></div>
-    
-  
            <div style="padding-top:20px">
-            <img src = "images/conferences/ghc.png" height = 250px align="right"/>
+            <img src = "images/conferences/ghc.png" height = 200px align="right" style="padding-right:10px; padding-left:10px"/>
             <b><font color="#1C4B83" size="5">Grace Hopper Celebration of Women in Computing</font></b>
            <br>The Grace Hopper Celebration of Women in Computing (GHC) is the <font color ="#1C4B83"><b>World's Largest gathering of Women Technologists.</b></font> It is produced by the Anita Borg Institute and presented in partnership with ACM. To read more about GHC, <a href="http://www.gracehopper.org">visit their website</a>
           <br><br><b><font color="0000A0">ACM-W Executives will be attending the conference this year!</font> </b>All of the experiences and information learned will be shared with ACM-W members shortly after the conference.
-           <br> <b>Date: </b>October 14th - 16th, 2015
-           <br> <b>Location: </b>Houston, Texas  
-           <br><b>GHC 2014:</b> ACM-W also attended GHC last year, held in Phoenix, Arizona. <a href="ghc2014.html">Click here</a> for a glimpse into the activities last year. </div>
+           <br> <b>Date: </b>October 18th - 21st, 2016
+           <br> <b>Location: </b>Houston, Texas  </div>
+           <!-- <br><b>GHC 2014:</b> ACM-W also attended GHC last year, held in Phoenix, Arizona. <a href="ghc2014.html">Click here</a> for a glimpse into the activities last year. </div> -->
        <br>
        
-           <img src="images/conferences/ky-triwic.png" width="300px" align="left"/>
+           <!-- <img src="images/conferences/ky-triwic.png" width="300px" align="left"/>
            <br><b><font color="#1C4B83" size="5">KY-TRIWIC</font></b>
            <br>Ky-triwic is Lexington, Louisville and Greater-Cincinnati Area's Celebration of Women in Computing Conference. To read more about ky-triwic, <a href="http://triwic.nku.edu/">visit their website</a>
            <br> <b>Date: </b>February 2016
            <br> <b>Location: </b> Northern Kentucky University 
            <br> <b>How to get involved:</b>You will be eligible to attend with ACM-W as long as you <b><font color="0000A0">attend atleast 5 general meetings before the conference.</font></b> 
-      <br>
+      <br> -->
 
-   	   <br><br><img src = "images/conferences/ocwic.png" height:"200px" align="right"/>
+
+    <!-- Digigirlz -->
+          <div style="padding-top:20px">
+            <img src = "images/digigirlz.png" width = 250px align="left" style="padding-right:10px; padding-left:10px"/>
+            <b><font color="#1C4B83" size="5">DigiGirlz</font></b>
+            <div class="text-block"><p><b>Purpose:</b> Microsoft Corporation partnered with UC ACM-W to host DigiGirlz day. During the event, high school students interacted with <b>Microsoft employees and managers</b> and University of Cincinnati staff and students to <b> <font color="#1C4B83">gain exposure to careers in business and technology and to get an inside look at what it’s like to work in the computing industry. </font></b></p></div>
+            <div class="text-block"><b>Date: </b>TBD</div>
+            <div class="text-block"><b>Location: </b>TBD </div>
+            <div class="text-block"><b>Participants:  Approximately 100 people:</b> <font color="#1C4B83">50-60 high school students from inner-city schools, 20 college students (volunteers), 20 faculty members /Microsoft reps. /UC Staff</font></div>
+            <div class="text-block"><b>How to get involved: </b> Sign up to volunteer! Note: The volunteering counts towards <b>Cincinnatus hours</b>.</div>
+          </div>
+
+   	      <br>
+          <br><img src = "images/conferences/ocwic.png" height:"200px" align="right"/>
            <b><font color="#1C4B83" size="5">Ohio Celebration of Women in Computing</font></b>
            <br>OCWiC is an opportunity for young women to explore careers in IT, to network with other young women and to meet possible mentors. OCWiC hopes to encourage women to complete their studies in computing by exploring careers and meeting women leaders from business, industry and academia. To read more about OCWIC or to attend, <a href="http://www.ocwic.org/">visit their website</a>
            <br> <b>Date: </b>TBD
-           <br> <b>Location: </b> Sawmill Creek Resort, Huron, OH
-           <br> Note: ACM-W will NOT be attending this conference this year. 
-      <br>
+           <br> <b>Location: </b> Ohio
+           <br> <i>Note: ACM-W is still working on the details and deciding whether or not to attend this year.</i>i
+      <br><br><br><br><br>
 	
 </div>
 
@@ -113,14 +147,6 @@
 
 <footer>
   <div class="footer-text">
-    <!-- <div class="col-sm-3"> -->
-
-    <!-- </div> -->
-
-    <!-- <div class="col-sm-9"> -->
-
-    
-
 
       <p style="font-size:3em"><b>Join Us!</b></h1>
           
@@ -162,3 +188,4 @@
       </table>
     </div>
   </div>   
+</footer>
