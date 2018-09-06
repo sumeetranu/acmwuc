@@ -1,208 +1,188 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  <meta charset="utf-8" />
-  <TITLE>Home Page for ACM-W,University of Cincinnati </TITLE>
-  <META name="description" content="">
-  <META name="keywords" content="ACM-W, University of Cincinnati, ACM">
-  <link type="text/css" rel="stylesheet" href="acmw.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acmwuc</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<meta charset="utf-8" />
+	<TITLE>Home Page for ACM-W,University of Cincinnati </TITLE>
+	<META name="description" content="">
+	<META name="keywords" content="ACM-W, University of Cincinnati, ACM">
+	<link type="text/css" rel="stylesheet" href="acmw.css"/>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- Fontawesome -->
-  <script src="https://use.fontawesome.com/4e542964ef.js"></script>
+	<!-- Fontawesome -->
+	<script src="https://use.fontawesome.com/4e542964ef.js"></script>
 
-  <!-- Facebook -->
-  <div id="fb-root"></div>
-  <style type="text/css">
-      .fb_iframe_widget span{        
-          overflow: initial !important;
-      }
-      .fb_iframe_widget iframe{        
-          width: 340px !important;
-          height: 500px !important;    
-      }
-  </style>
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-
-    <!-- 
-  To collect end-user usage analytics about your application, 
-  insert the following script into each page you want to track.
-  Place this code immediately before the closing </head> tag,
-  and before any other scripts. Your first data will appear 
-  automatically in just a few seconds.
-  -->
-  <script type="text/javascript">
-    var appInsights=window.appInsights||function(config){
-      function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(s);try{t.cookie=u.cookie}catch(h){}for(t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Dependency"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
-      }({
-          instrumentationKey:"704bed2d-50d3-4134-bccf-d3cab9c1bc81"
-      });
-         
-      window.appInsights=appInsights;
-      appInsights.trackPageView();
-  </script>
-  
+	<!-- Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		<!-- 
+	To collect end-user usage analytics about your application, 
+	insert the following script into each page you want to track.
+	Place this code immediately before the closing </head> tag,
+	and before any other scripts. Your first data will appear 
+	automatically in just a few seconds.
+	-->
+	<script type="text/javascript">
+	  var appInsights=window.appInsights||function(config){
+	    function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(s);try{t.cookie=u.cookie}catch(h){}for(t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Dependency"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
+	    }({
+	        instrumentationKey:"704bed2d-50d3-4134-bccf-d3cab9c1bc81"
+	    });
+	       
+	    window.appInsights=appInsights;
+	    appInsights.trackPageView();
+	</script>
 </head>
 
-<header style="width:100%">
-<div style="align-content:center; text-align:center">
-   <img align="middle" src="images/websitebanner.png" style="max-height:5%; height:auto; max-width:100%; width:auto; padding-left:auto; padding-right:auto" align="center" width="100%"></img>
-</div>
-      <!-- Navigation bar -->
-
-    <nav class="navbar navbar-default blue-navbar" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>    
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-left">
-            <li class="navbar-button"><a class="navbar-link" href="index.html">Home</a></li> 
-            <li class="navbar-button"><a class="navbar-link" href="officers.html">Officers</a></li> 
-            <li class="navbar-button"><a class="navbar-link" href="activities.html">Activities</a></li> 
-            <li class="navbar-button"><a class="navbar-link" href="calendar.html ">Calendar</a></li>
-            <li class="navbar-button"><a class="navbar-link" href="meetings.html ">Meetings</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="navbar-button" title="Like our Facebook page"><a class="navbar-link" href="https://www.facebook.com/acmwuc/" target="_blank"><i class="fa fa-lg fa-facebook" ></i></a></li>
-          <li class="navbar-button" title="Follow us on Twitter"><a class="navbar-link" href="https://twitter.com/acmwuc" target="_blank"><i class="fa fa-lg fa-twitter" ></i></a></li>
-          <li class="navbar-button" title="Send us an email"><a class="navbar-link" href="mailto:acmwuc@gmail.com"><i class="fa fa-lg fa-envelope" ></i></a></li>
-          <li class="navbar-button" style="" title="Subscribe to our listserv"><a class="navbar-link" href="mailto:listserv@listserv.uc.edu?subject=subscribe CEAS-ACM-W <your name>&body=subscribe CEAS-ACM-W <your name>"><i class="fa fa-lg fa-list" ></i></a></li>
-        </ul>
-      </div>
-    </nav>
-</header>
-
-<body background="paper_fibers.png">
-
-    <div background="paper_fibers.png" class="container">
-
-        <!-- Page Content -->
-        <font size="6" color="#1C4B83"> <center>Main Activities</center></font>
-
-        <div style="padding-top:20px; height:auto">
-            <img src="images/bearcatcoders.png" height=200px align="right" style="padding-right:10px; padding-left:10px" />
-            <b><font color="#1C4B83" size="5"> Google Bearcat Coders</font></b>
-
-            <br><b>Purpose:</b> Google is helping ACM-W give back to the community by funding the Bearcat Coders program to serve as project mentors for Hughes STEM Students.<b> <font color="#1C4B83">Volunteers can sign up to join a Bearcat Coders team to go over to Hughes High School and mentor students. </font></b>
-            <br><br> <b>Date: </b>TBD - Look out for "Orientation" meeting announcements in a few weeks!
-            <br><br> <b>Location: </b>Hughes High School (across the street from UC, on Clifton Ave.)
-            <br><br> <b>How to get involved: </b> Look out for Orientation meeting announcements in a few weeks! Note: The volunteering counts towards <b>Cincinnatus hours</b>. Anyone can volunteer because <b>No programming knowledge is required!</b>
-
+<body>
+    <section>
+        <div id="toggle" style="background-color:#4484ce;min-height:100%;">
+            <div class="rotate">
+                <p style="font-family:'Source Sans Pro', sans-serif;">MAin Menu</p>
+            </div>
         </div>
-
-        <div style="padding-top:20px; height:auto">
-            <img src="images/networking_week.png" height=150px align="left" style="padding-right:10px; padding-left:10px" />
-            <b><font color="#1C4B83" size="5"> Networking Events</font></b>
-
-            <br><b>Purpose:</b> ACM-W is hosting Fortune 500 companies to network with students, the two weeks prior to the fall career fair. Visit our calendar to get more details on the dates, locations and other details.<b> <font color="#1C4B83">This is a great chance to get to know companies and employees prior to the career fair!</font></b>
-            <br><br> <b>How to get involved: </b> Come to the the events and bring your friends! <b>We will provide a professional development session prior to the career fair to help you revise your resume and learn how to navigate the event.</b>
-
+        <div class="menu closed" style="background-color:#1d4b82;">
+            <ul>
+                <li><a href="index.html" style="text-decoration:none;color:rgb(255,255,255);">Home</a></li>
+                <li><a href="Officers.html" style="text-decoration:none;color:rgb(255,255,255);">Officers</a></li>
+                <li><a href="Events.html" style="text-decoration:none;color:rgb(255,255,255);">Events</a></li>
+                <li><a href="Activities.html" style="text-decoration:none;color:rgb(255,255,255);">Activities</a></li>
+            </ul>
         </div>
-
-
-
-        <div style="padding-top:20px">
-            <img src="images/conferences/ghc.png" height=200px align="right" style="padding-right:10px; padding-left:10px" />
-            <b><font color="#1C4B83" size="5">Grace Hopper Celebration of Women in Computing</font></b>
-            <br>The Grace Hopper Celebration of Women in Computing (GHC) is the <font color="#1C4B83"><b>World's Largest gathering of Women Technologists.</b></font> It is produced by the Anita Borg Institute and presented in partnership with ACM. To read more about GHC, <a href="http://www.gracehopper.org">visit their website</a>
-            <br><br><b><font color="0000A0">ACM-W Executives will be attending the conference this year!</font> </b>All of the experiences and information learned will be shared with ACM-W members shortly after the conference.
-            <br> <b>Date: </b>October 18th - 21st, 2016
-            <br> <b>Location: </b>Houston, Texas  
+    </section>
+    <section>
+        <div class="row" style="max-width:none;margin-left:45px;margin-right:0px;">
+            <div class="col-12 visible" style="background-size:contain;background-repeat:no-repeat;background-position:center;padding:0px;"><img class="img-fluid" src="assets/img/websitebanner.png"></div>
         </div>
-        <!-- <br><b>GHC 2014:</b> ACM-W also attended GHC last year, held in Phoenix, Arizona. <a href="ghc2014.html">Click here</a> for a glimpse into the activities last year. </div> -->
-        <br>
-
-        <!-- <img src="images/conferences/ky-triwic.png" width="300px" align="left"/>
-         <br><b><font color="#1C4B83" size="5">KY-TRIWIC</font></b>
-         <br>Ky-triwic is Lexington, Louisville and Greater-Cincinnati Area's Celebration of Women in Computing Conference. To read more about ky-triwic, <a href="http://triwic.nku.edu/">visit their website</a>
-         <br> <b>Date: </b>February 2016
-         <br> <b>Location: </b> Northern Kentucky University 
-         <br> <b>How to get involved:</b>You will be eligible to attend with ACM-W as long as you <b><font color="0000A0">attend atleast 5 general meetings before the conference.</font></b>
-    <br> -->
-        <!-- Digigirlz -->
-        <div style="padding-top:20px">
-            <img src="images/digigirlz.png" width=250px align="left" style="padding-right:10px; padding-left:10px" />
-            <b><font color="#1C4B83" size="5">DigiGirlz</font></b>
-            <div class="text-block"><p><b>Purpose:</b> Microsoft Corporation partnered with UC ACM-W to host DigiGirlz day. During the event, high school students interacted with <b>Microsoft employees and managers</b> and University of Cincinnati staff and students to <b> <font color="#1C4B83">gain exposure to careers in business and technology and to get an inside look at what it’s like to work in the computing industry. </font></b></p></div>
-            <div class="text-block"><b>Date: </b>TBD</div>
-            <div class="text-block"><b>Location: </b>TBD </div>
-            <div class="text-block"><b>Participants:  Approximately 100 people:</b> <font color="#1C4B83">50-60 high school students from inner-city schools, 20 college students (volunteers), 20 faculty members /Microsoft reps. /UC Staff</font></div>
-            <div class="text-block"><b>How to get involved: </b> Sign up to volunteer! Note: The volunteering counts towards <b>Cincinnatus hours</b>.</div>
+    </section>
+    <div class="container">
+        <div class="row" style="padding-left:45px;margin-left:0px;margin-right:0px;">
+            <div class="col-12 col-md-12">
+                <div role="tablist" id="accordion-1" class="shadow-lg">
+                    <div class="card" style="border:1px solid #d9d9d9;">
+                        <div class="card-header" role="tab">
+                            <h2 class="mb-0 nofrill-text-decoration" style="margin:0px;"><a data-toggle="collapse" aria-expanded="true" aria-controls="accordion-1 .item-1" href="div#accordion-1 .item-1" style="text-decoration:blink;color:#4484ce;font-family:'Source Sans Pro', sans-serif;">Google Bearcat Coders&nbsp;<br></a></h2>
+                        </div>
+                        <div class="collapse show item-1" role="tabpanel" data-parent="#accordion-1">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Purpose:</strong>&nbsp;Google is helping ACM-W give back to the community by funding the Bearcat Coders program to serve as project mentors for Hughes STEM Students.<strong>&nbsp;Volunteers can sign up to join a Bearcat Coders team to go over to Hughes High School and mentor students.&nbsp;</strong><br></p>
+                                <p
+                                    class="card-text"><strong>Date:&nbsp;</strong>TBD - Look out for "Orientation" meeting announcements in a few weeks!&nbsp;<br></p>
+                                    <p class="card-text"><strong>Location:&nbsp;</strong>Hughes High School (across the street from UC, on Clifton Ave.)&nbsp;<br></p>
+                                    <p class="card-text"><strong>How to get involved:&nbsp;</strong>Look out for Orientation meeting announcements in a few weeks! Note: The volunteering counts towards&nbsp;<strong>Cincinnatus hours</strong>. Anyone can volunteer because&nbsp;<strong>No programming knowledge is required!</strong><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="border:1px solid #d9d9d9;">
+                        <div class="card-header" role="tab">
+                            <h2 class="mb-0" style="margin:0px;"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="div#accordion-1 .item-2" style="text-decoration:blink;color:#4484ce;font-family:'Source Sans Pro', sans-serif;">Networking Events&nbsp;<br></a></h2>
+                        </div>
+                        <div class="collapse item-2" role="tabpanel" data-parent="#accordion-1">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Purpose:</strong>&nbsp;Throuout the year we strive to bring in Fortune 500 companies and local startups to talk to you. The events are a great way to learn more about the business, hear some real-world experiences,
+                                    and network with your fravorite companies!<br></p>
+                                <p class="card-text"><strong>How to get involved:&nbsp;</strong>Come to the the events and bring your friends!&nbsp;<strong>We will provide a professional development session prior to the career fair to help you revise your resume and learn how to navigate the event.</strong><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="border:1px solid #d9d9d9;">
+                        <div class="card-header" role="tab">
+                            <h2 class="mb-0" style="margin:0px;"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-3" href="div#accordion-1 .item-3" style="text-decoration:blink;color:#4484ce;font-family:'Source Sans Pro', sans-serif;">DigiGirlz</a></h2>
+                        </div>
+                        <div class="collapse item-3" role="tabpanel" data-parent="#accordion-1">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Purpose:</strong>&nbsp;Microsoft Corporation partnered with UC ACM-W to host DigiGirlz day. During the event, high school students interacted with&nbsp;<strong>Microsoft employees and managers</strong>&nbsp;and
+                                    University of Cincinnati staff and students to&nbsp;<strong>gain exposure to careers in business and technology and to get an inside look at what it’s like to work in the computing industry.</strong><br></p>
+                                <p class="card-text"><strong>Participants: Roughly 100 people:</strong>&nbsp;50-60 high school students from inner-city schools<strong> | </strong>20 college students (volunteers) <strong>|</strong> 20 faculty members <strong>|</strong> Microsoft
+                                    reps <strong>|</strong> UC Staff<br></p>
+                                <p class="card-text"><strong>How to get involved:&nbsp;</strong>Sign up to volunteer! Note: The volunteering counts towards&nbsp;<strong>Cincinnatus hours</strong>.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="border:1px solid #d9d9d9;">
+                        <div class="card-header" role="tab">
+                            <h2 class="mb-0" style="margin:0px;"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-4" href="div#accordion-1 .item-4" style="text-decoration:blink;color:#4484ce;font-family:'Source Sans Pro', sans-serif;">Grace Hopper Celebration</a></h2>
+                        </div>
+                        <div class="collapse item-4" role="tabpanel" data-parent="#accordion-1">
+                            <div class="card-body">
+                                <div class="col-12">
+                                    <p class="card-text" style="font-family:'Source Sans Pro', sans-serif;font-size:18px;">The Grace Hopper Celebration of Women in Computing (GHC) is the&nbsp;<strong>World's Largest gathering of Women Technologists.</strong>&nbsp;It is produced by the Anita Borg Institute and presented in partnership with
+                                        ACM. Each year we send a few ACM-W@UC Exec members to network, learn, and grow. We are working on bringing this opportunity to even more students and hope to send more ACM-W members soon!&nbsp;<br></p>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                            <p class="card-text" style="font-family:'Source Sans Pro', sans-serif;"><strong>GHC18 will be:</strong><br><strong>Date:&nbsp;</strong>October 26th - 28th<br><strong>Location:&nbsp;</strong>Houston, Texas &nbsp;<br></p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto"><a class="btn btn-info btn-lg" role="button" href="https://ghc.anitab.org/" target="_blank" style="font-family:'Source Sans Pro', sans-serif;">Check-it-out!</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="border:1px solid #d9d9d9;">
+                        <div class="card-header" role="tab" style="font-family:'Source Sans Pro', sans-serif;">
+                            <h2 class="mb-0" style="margin:0px;"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-5" href="div#accordion-1 .item-5" style="text-decoration:blink;color:#4484ce;">Ohio Celebration of Women in Computing<br></a></h2>
+                        </div>
+                        <div class="collapse item-5" role="tabpanel" data-parent="#accordion-1">
+                            <div class="card-body">
+                                <div class="col-12">
+                                    <p class="card-text" style="font-size:16px;font-family:'Source Sans Pro', sans-serif;">OCWiC is a biannual event that gives young women the opportunity to explore careers in IT, to network with other young women and to meet possible mentors. OCWiC inspires women to complete their studies in computing
+                                        by expanding their awareness of career possibilities and learning from women leaders from business, industry and academia.<br></p>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                            <p class="card-text" style="font-family:'Source Sans Pro', sans-serif;"><strong>OCWiC19 will be:</strong><br><strong>Date:&nbsp;</strong>February<strong>&nbsp;</strong>22nd - 24th<br><strong>Location:&nbsp;</strong>Huron, OH&nbsp;&nbsp;<br></p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto"><a class="btn btn-info btn-lg" role="button" href="https://ocwic.hosting.acm.org/ocwic19/" target="_blank" style="font-family:'Source Sans Pro', sans-serif;">Check-it-out!</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <br>
-        <br><img src="images/conferences/ky-triwic.png" width="300px" align="left" />
-        <b><font color="#1C4B83" size="5">Tri-State Women in Computing Conference</font></b>
-        <br>TRIWiC is an opportunity for young women to explore careers in IT, to network with other young women and to meet possible mentors. TRIWiC hopes to encourage women to complete their studies in computing by exploring careers and meeting women leaders from business, industry and academia. To read more about TRIWiC or to attend, <a href="http://www.ocwic.org/">visit their website</a>
-        <br> <b>Date: </b>February 9-10, 2018
-        <br> <b>Location: </b> Kingsgate Marriott Conference Center at the University of Cincinnati
-        <br><br><br><br><br>
-
+        <div class="footer-basic" style="padding-left:45px;">
+            <footer>
+                <div class="social"><a class="text-dark" href="mailto:acmwuc@gmail.com"><i class="icon ion-email"></i></a><a class="text-dark" href="#"><i class="icon ion-social-octocat"></i></a><a class="text-dark" href="https://twitter.com/acmwuc" target="_blank"><i class="icon ion-social-twitter"></i></a>
+                    <a
+                        class="text-dark" href="https://www.facebook.com/acmwuc" target="_blank"><i class="icon ion-social-facebook"></i></a><a class="text-dark" href="https://acmcincy.slack.com" target="_blank"><i class="fab fa-slack-hash"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="index.html">Home</a></li>
+                    <li class="list-inline-item"><a href="Officers.html">Officers</a></li>
+                    <li class="list-inline-item"><a href="Events.html">Events</a></li>
+                    <li class="list-inline-item"><a href="Activities.html">Activities</a></li>
+                </ul>
+                <p class="copyright">ACM-W@UC © 2018</p>
+            </footer>
+        </div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
-<footer>
-  <div class="footer-text">
-
-      <p style="font-size:3em"><b>Join Us!</b></h1>
-          
-      <center><h4 style="width:50%; color:#1C4B83"><b>ACM-W at UC is open to all students, undergraduate or graduate, male or female, who are interested in computing and technology. Subscribe to our mailing list to stay connected!</b></h4></center>
-      <br>
-      <form class="form-inline">
-        <div class="form-group">
-          <input type="text" class="form-control" id="inputFirstName" placeholder="First name" style="border-radius:0px">
-          <input type="text" class="form-control" id="inputLastName" placeholder="Last name" style="border-radius:0px">
-        </div>
-        <button type="submit" onclick="location.href='mailto:listserv@listserv.uc.edu?subject=subscribe CEAS-ACM-W '+ document.getElementById('inputFirstName').value + ' ' + document.getElementById('inputLastName').value + '&body=subscribe CEAS-ACM-W '+ document.getElementById('inputFirstName').value + ' ' + document.getElementById('inputLastName').value" class="btn btn-primary" style="background:#1C4B83; color:white; border-radius:0px">Subscribe</button>
-      </form>
-      <br><br>
-          
-
-          <form class="form-inline">
-        <a class="navbar-link" href="https://www.facebook.com/acmwucinci/" target="_blank"><i class="fa fa-lg fa-facebook spaced-icon" ></i></a>
-        <a class="navbar-link" href="https://twitter.com/ACMWatUC" target="_blank"><i class="fa fa-lg fa-twitter spaced-icon" ></i></a>
-        <a class="navbar-link" href="mailto:acmwuc@gmail.com"><i class="fa fa-lg fa-envelope spaced-icon" ></i></a>
-          </form>
-
-           
-           
-    <!-- </div> -->
-  </div>  
-  <div class="footer-below">
-    <div class="footer-below-text">
-      <table style="width:100%">
-        <tr>
-          <td style="text-align:left;">acmwuc@gmail.com</td>
-          <td style="text-align:right">
-            <a style="color:white" href="index.html">Home</a> //
-            <a style="color:white" href="officers.html">Officers</a> //
-            <a style="color:white" href="activities.html">Activities</a> //
-            <a style="color:white" href="calendar.html">Calendar</a> //
-            <a style="color:white" href="meetings.html">Meetings</a> 
-          </td>
-        </tr>
-      </table>
-    </div>
-  </div>   
-</footer>
+</html>
